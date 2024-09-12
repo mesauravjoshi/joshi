@@ -1,0 +1,78 @@
+.navbar {
+    border: 0.1rem solid rgb(82 96 91);
+    border-radius: 7em;
+    display: flex;
+}
+
+.navbar-toggler {
+    display: flex;
+    margin-top: 7px;
+    /* border-radius: 62px;*/
+    /* border: 2px solid white;  */
+    /* background-color: pink; */
+}
+
+
+button {
+    transition: box-shadow 200ms ease-in-out, transform 200ms ease-in-out;
+}
+
+button:hover {
+    transform: scale(1.2);
+}
+
+button:focus {
+    outline: 0px;
+}
+
+.navbar-brand {
+    /* border: 2px solid rgb(136, 255, 0); */
+    max-width: 157px;
+    /* background-color: aqua; */
+    margin: 0px 0px;
+}
+
+.navbar-nav {
+    /* border: 1px solid rgb(235, 221, 220); */
+    margin: 0px 0px;
+}
+
+.navbar-nav li {
+    /* border: 1px solid wheat; */
+    margin-right: 1em;
+}
+
+
+.collapse {
+    /* display: flex; */
+    justify-content: center;
+    /* border: 1px solid blue; */
+}
+
+
+
+
+
+/* dark mode  */
+.colorModeContainer {
+    position: relative;
+    /* border: 1px solid azure; */
+}
+
+.colorMode {
+    /* position: absolute;
+    right: 0;
+    */
+    width: 25px;
+}
+
+.colorMode:hover {
+    cursor: pointer;
+}
+
+@media (width <=640px) {
+    .navbar {
+        margin-top: 0.3em;
+        border-radius: 3em;
+    }
+}

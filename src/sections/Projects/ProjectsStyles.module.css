@@ -1,0 +1,62 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  /* border: 1px solid red ; */
+  margin: 40px 40px;
+
+  img {
+    max-width: 250px;
+    align-self: center;
+    background-color: var(--project-card-bg);
+    border-radius: 20px;
+  }
+
+  a {
+    width: fit-content;
+    text-decoration: none;
+    color: #222;
+    transition: transform 200ms ease-in-out;
+  }
+
+  a:hover {
+    transform: scale(1.05);
+  }
+
+  p {
+    max-width: 250px;
+  }
+}
+
+.projectsContainer {
+  flex-direction: column;
+  padding: 10px 10px;
+  gap: 30px;
+  /* border: 1px solid red; */
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  display: flex;
+  align-items: flex-start;
+}
+
+.projectBox {
+  display: flex;
+  width: 558px;
+  padding: 24px 24px;
+  border: 1px solid rgb(136, 228, 24);
+  justify-content: center;
+  flex-direction: row;
+}
+
+@media (width >=800px) {
+
+  .projectBox {
+    display: flex;
+    /* width: 558px; */
+    padding: 24px 24px;
+    border: 1px solid rgb(136, 228, 24);
+    justify-content: center;
+    flex-direction: row;
+  }
+}

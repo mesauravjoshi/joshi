@@ -1,0 +1,116 @@
+.container {
+  /* display: flex; */
+  flex-direction: column;
+  text-align: center;
+  /* border: 2px solid blue; */
+  margin: 40px 0px;
+  padding: 20px 0px;
+  align-items: center;
+
+}
+
+.oneR {
+  /* height: 200px; */
+  display: flex;
+  width: 48vw;
+  /* background-color: rgb(157, 128, 23); */
+  flex-direction: column;
+  align-content: flex-start;
+  align-items: flex-start;
+}
+
+.skillList2 {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  /* border: solid 1px white; */
+  margin-bottom: 3vh;
+  padding: 3vh;
+}
+
+.oneLL {
+  width: 44vw;
+  height: 5.3rem;
+  /* border: solid 1px white; */
+
+  ul {
+    text-align: right;
+    list-style-type: none;
+    display: flex;
+    /* border: 1px solid rgb(144, 226, 43); */
+    justify-content: flex-start;
+    flex-direction: column;
+    align-content: flex-start;
+    align-items: flex-end;
+    padding: 0px 0px;
+    margin: 0px 0px;
+  }
+}
+
+.oneRR {
+  display: flex;
+  /* border: solid 1px white; */
+  width: 48vw;
+  height: 5.3rem;
+}
+
+ul {
+  text-align: left;
+  list-style-type: none;
+  display: flex;
+  /* border: 1px solid blueviolet; */
+  justify-content: flex-start;
+  flex-direction: column;
+  align-content: flex-start;
+  align-items: flex-start;
+  padding: 0px 0px;
+  margin: 0px 0px;
+}
+
+/* p {
+  font-size: 19px;
+} */
+
+
+@media (width <=640px) {
+  .skillList2 h4{
+    font-size: 0.1em;
+  }
+  .skillList2 p{
+    font-size: 0.6em;
+  }
+  .skillList2 {
+    font-size: 12rem;
+    /* background-color: greenyellow; */
+    /* border: 1px solid greenyellow; */
+    display: flex;
+    flex-direction: column;
+    align-content: flex-start;
+    align-items: flex-start;
+    margin: 17px 30px;
+    padding: 5px 5px;
+  }
+
+  .oneRR {
+    font-size: 23px;
+    height: 6.3rem;
+    /* border: 1px solid orangered; */
+    width: 100%;
+    text-align: left;
+  }
+
+  .oneLL {
+    display: flex;
+    height: 25%;
+    /* border: 1px solid orangered; */
+    width: 100%;
+    text-align: left;
+    /* background-color: #4a4a80; */
+  }
+
+  .oneLL ul{
+    text-align: left;
+    /* background-color: aqua; */
+  }
+}
