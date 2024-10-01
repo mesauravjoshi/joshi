@@ -67,7 +67,7 @@ function Home() {
         </span>
         
         <a 
-        href={'https://drive.google.com/file/d/1V-16faPuyoxOSdxlFbAnCtiy9nGU1Dj7/view?usp=drive_link'} 
+        href={'https://drive.google.com/file/d/1PHWnPHqbCIzpcKzkFNVpATB0w19IRhG5/view'} 
         target="_blank"
         >
           <button >Resume</button>
