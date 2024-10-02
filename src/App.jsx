@@ -5,8 +5,6 @@ import Home from './sections/Home/Home';
 import Nav from './sections/Nav/Nav';
 import Projects from './sections/Projects/Projects';
 import Skills from './sections/Skills/Skills';
-import Contact from './sections/Contact/Contact';
-
 
 function App() {
   console.log('test');

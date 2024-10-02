@@ -1,12 +1,21 @@
+.cards{
+  background-color:#00000082;
+  padding: 10px 19px;
+  border-radius: 2em;
+  font-size: 0.8rem;
+  color: red;
+}
+
 .container {
   display: flex;
   flex-direction: column;
   text-align: center;
-  /* border: 1px solid red ; */
-  margin: 40px 40px;
+  /* border: 1px solid white; */
+  background-color: #172f2bdb;
+  padding: 40px 40px;
 
   img {
-    max-width: 250px;
+    max-width: 200px;
     align-self: center;
     background-color: var(--project-card-bg);
     border-radius: 20px;
@@ -23,16 +32,24 @@
     transform: scale(1.05);
   }
 
+  h1{
+    color: #cce2d9;
+  }
+
+  h3{
+    color: #cce2d9;
+  }
+
   p {
-    max-width: 250px;
+    max-width: 256px  ;
+    color: #cce2d9;
   }
 }
 
 .projectsContainer {
   flex-direction: column;
-  padding: 10px 10px;
+  padding: 10px 0px;
   gap: 30px;
-  /* border: 1px solid red; */
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: space-evenly;
@@ -60,3 +77,4 @@
     flex-direction: row;
   }
 }
+

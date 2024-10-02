@@ -2,18 +2,15 @@
   --background-color: #bcd5cb;
   --btn-color: #1e3f32;
   --btn-text-color: #bcd5cb;
-  --project-card-bg: #ffffff00;
   --text-color: #222;
   --form-text-color: #555;
   --footer-text-color: #888;
 }
 
 [data-theme='dark'] {
-  /* --background-color: #1d2a35; */
   --background-color: #272c2a;
   --btn-color: #fff;
   --btn-text-color: #222;
-  --project-card-bg: #fff;
   --text-color: #fff;
   --form-text-color: #fff;
   --footer-text-color: #bbb;
@@ -43,7 +40,6 @@ p {
 
 a:hover{
   color: var(--text-color);
-  
 }
 h2,
 h3,
@@ -77,6 +73,11 @@ p {
 
 .hover {
   cursor: pointer;
+}
+
+::selection{
+  color: rgb(26, 28, 25);
+  background-color: rgb(193, 244, 135);
 }
 
 @media (width >= 800px) {

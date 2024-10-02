@@ -1,7 +1,6 @@
 import styles from './HomeStyles.module.css';
 // my photo 
-import Img from '../../assets/e.png';
-import Img2 from '../../assets/e2.png';
+import Img from '../../assets/img.png';
 import sun from '../../assets/sun.svg';
 import moon from '../../assets/moon.svg';
 import githubLight from '../../assets/github-light.svg';
@@ -20,7 +19,7 @@ function Home() {
 
   const themeIcon = theme === 'light' ? sun : moon;
   // my photo 
-  const myImage = theme === 'light' ? Img2 : Img  ;
+  const myImage = theme === 'light' ? Img : Img  ;
 
   // email icon 
   const emailIcon = theme === 'light' ? emailDark : emailLight  ;
@@ -68,7 +67,7 @@ function Home() {
         </span>
         
         <a 
-        href={'https://drive.google.com/file/d/1V-16faPuyoxOSdxlFbAnCtiy9nGU1Dj7/view?usp=drive_link'} 
+        href={'https://drive.google.com/file/d/1PHWnPHqbCIzpcKzkFNVpATB0w19IRhG5/view'} 
         target="_blank"
         >
           <button >Resume</button>
