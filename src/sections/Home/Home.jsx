@@ -1,3 +1,4 @@
+
 import styles from './HomeStyles.module.css';
 // my photo 
 import Img from '../../assets/img.png';
@@ -67,7 +68,7 @@ function Home() {
         </span>
         
         <a 
-        href={'https://drive.google.com/file/d/1YzFvUW1WoflBkDy86fHkExah54agthDP/view'} 
+        href={'https://drive.google.com/file/d/1YzFvUW1WoflBkDy86fHkExah54agthDP/view?usp=drive_link'} 
         target="_blank"
         >
           <button >Resume</button>
