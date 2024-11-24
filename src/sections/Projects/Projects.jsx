@@ -5,7 +5,7 @@ import passwordManager from '../../assets/password.jpg';
 // 2
 import Currency from '../../assets/Currency.jpg';
 import keylog from '../../assets/keylog.png';
-import Recipe from '../../assets/RecipePage.jpg';
+import Recipe from '../../assets/Recipes.jpg';
 import ProjectCard from '../../common/ProjectCard';
 
 // framer motion 
