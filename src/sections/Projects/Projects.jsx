@@ -22,8 +22,8 @@ const Projects = forwardRef((props, ref) => {
          dragConstraints={ref} > 
           <ProjectCard
             src={Recipe}
-            date={'(Oct 2024)'} 
-            link="https://github.com/mesauravjoshi/CookbookHub"
+            date={'(Oct-Nov 2024)'} 
+            link="https://cookbookhub-ay9t.onrender.com/"
             h3="RecipeShare:"
             p="&nbsp;A social media app for sharing recipes, built with React and Node.js, featuring JWT and Bcrypt for user authentication."
           />
