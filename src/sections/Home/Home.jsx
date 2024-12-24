@@ -62,13 +62,13 @@ function Home() {
           <a href="https://www.linkedin.com/in/saurav-joshi-b9736028b/" target="_blank">
             <img src={linkedinIcon} alt="Linkedin icon" />
           </a>
-          <a href="mailto:mesaruavjoshii@gmail.com" >
+          <a href="mailto:sauravjoshi.work1@gmail.com" >
             <img src={emailIcon} alt="Github icon" />
           </a>
         </span>
         
         <a 
-        href={'https://drive.google.com/file/d/1FT94JRsdTOFmgOJCsp6G3hRSabzuPMvw/view'} 
+        href={'https://drive.google.com/file/d/11vhexzlE4zyHN_qFb3RPaNjMSAlnXmi7/view?usp=sharing'} 
         target="_blank"
         >
           <button >Resume</button>
